@@ -1,2 +1,2 @@
 # Python_Projects
-Here are simple python Projects
+Here are some simple python Projects.
