@@ -5,7 +5,7 @@ def countdown_timer(seconds):
         mins, secs = divmod(seconds, 60)
         timer = f"{mins:02}:{secs:02}"  # Format as MM:SS
         print(f"\rTime left: {timer}", end="")  # Print on the same line
-        time.sleep(1)  # Wait for 1 second
+        time.sleep(1)
         seconds -= 1
 
     print("\nTime's up!")
